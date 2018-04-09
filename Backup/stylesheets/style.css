@@ -1,0 +1,1140 @@
+/*!
+ * Emerse-Shop  -  main.css v1.0.0
+ * Author - John Mwendwa
+ * Website - jmwendwa.com
+ * Linkedin - https://ke.linkedin.com/in/johnmwendwa
+ */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,500i,700,900");
+/* line 20, ../sass/style.scss */
+html, body {
+  font-family: 'Roboto', sans-serif !important;
+  height: 100%;
+}
+
+/* line 25, ../sass/style.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 29, ../sass/style.scss */
+body {
+  height: 100%;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  -ms-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+/* line 37, ../sass/style.scss */
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 43, ../sass/style.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 48, ../sass/style.scss */
+a {
+  text-decoration: none !important;
+}
+
+/* line 52, ../sass/style.scss */
+a:hover, a:active {
+  text-decoration: none !important;
+  color: #FFC96D;
+}
+
+/* ---------------------------------------Header--------------------------------------- */
+/* line 59, ../sass/style.scss */
+header {
+  background: #990000;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  position: fixed;
+  top: 0;
+  z-index: 34;
+  width: 100%;
+}
+
+/* line 69, ../sass/style.scss */
+header a {
+  font-size: 1.2em !important;
+  color: #F5F5F5;
+}
+
+/* line 74, ../sass/style.scss */
+header a:hover {
+  font-size: 1.2em !important;
+  color: #FFC96D !important;
+  transition: 0.3s;
+  -webkit-animation-timing-function: linear;
+  /* Safari 4.0 - 8.0 */
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: ease-in;
+  /* Safari 4.0 - 8.0 */
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-out;
+  /* Safari 4.0 - 8.0 */
+  animation-timing-function: ease-out;
+}
+
+/* line 86, ../sass/style.scss */
+header a img {
+  width: 100%;
+  max-width: 150px;
+}
+
+/* line 91, ../sass/style.scss */
+.main-navs {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+/* line 96, ../sass/style.scss */
+.main-navs a {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1em !important;
+  padding: 0.5em 2em;
+}
+
+/* line 103, ../sass/style.scss */
+.main-navs a:hover {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1em !important;
+  padding: 0.5em 2em;
+  transition: 0.3s;
+  -webkit-animation-timing-function: linear;
+  /* Safari 4.0 - 8.0 */
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: ease-in;
+  /* Safari 4.0 - 8.0 */
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-out;
+  /* Safari 4.0 - 8.0 */
+  animation-timing-function: ease-out;
+}
+
+/* line 117, ../sass/style.scss */
+.mobile-nav {
+  background: #fafafa;
+  border-bottom: 1px solid #bebebe;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  position: fixed;
+  top: 66px;
+  z-index: 34;
+  width: 100%;
+}
+
+/* line 129, ../sass/style.scss */
+.main-navs-mobile a {
+  color: #4B4B4B;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px !important;
+  padding: 0.5em 1.2em;
+}
+
+/* line 137, ../sass/style.scss */
+.main-navs-mobile a:hover {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px !important;
+  padding: 0.5em 1.2em;
+  color: #FFC96D;
+  transition: 0.3s;
+  -webkit-animation-timing-function: linear;
+  /* Safari 4.0 - 8.0 */
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: ease-in;
+  /* Safari 4.0 - 8.0 */
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-out;
+  /* Safari 4.0 - 8.0 */
+  animation-timing-function: ease-out;
+}
+
+/********************************************************Home Page********************************************************
+**************************************************************************************************************************/
+/* ---------------------------------------Banner--------------------------------------- */
+/* line 157, ../sass/style.scss */
+.banner {
+  width: 100%;
+  max-height: 550px;
+  overflow: hidden;
+  background-color: #FAFAFA;
+  margin-top: 65px;
+}
+
+/* ---------------------------------------Categories--------------------------------------- */
+/* line 168, ../sass/style.scss */
+.categories {
+  position: relative;
+  top: -70px;
+}
+
+/* line 173, ../sass/style.scss */
+.category-bg {
+  padding: 2.3em 1.3em;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafafa+0,fafafa+32,bd1d2c+32,bd1d2c+100 */
+  background: #fafafa;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #fafafa 0%, #fafafa 32%, #BD1D2C 32%, #BD1D2C 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #fafafa 0%, #fafafa 32%, #BD1D2C 32%, #BD1D2C 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #fafafa 0%, #fafafa 32%, #BD1D2C 32%, #BD1D2C 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='$primary-background',GradientType=1 );
+  /* IE6-9 */
+}
+
+/* line 183, ../sass/style.scss */
+.category-bg img {
+  width: 100%;
+}
+
+/* line 187, ../sass/style.scss */
+.category-title {
+  text-transform: uppercase;
+  color: #BD1D2C;
+  font-size: 1.1em !important;
+  position: absolute;
+  top: 7px;
+  left: 8%;
+  font-weight: 900;
+}
+
+/* ---------------------------------------Custom Discount--------------------------------------- */
+/* line 200, ../sass/style.scss */
+.custom-discount {
+  background-color: #FF6D6D;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* line 206, ../sass/style.scss */
+.content-slider {
+  overflow: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+  height: 400px;
+  max-height: 400px;
+  width: 100%;
+  display: inline-flex;
+}
+
+/* line 216, ../sass/style.scss */
+.c-p-scroll {
+  float: left;
+  max-height: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  white-space: nowrap;
+  display: inline;
+}
+
+/* line 227, ../sass/style.scss */
+.custom-message {
+  color: #4B4B4B;
+  text-transform: uppercase;
+  font-size: 1.1em !important;
+  font-weight: 900;
+  padding: 1em;
+}
+
+/* line 235, ../sass/style.scss */
+.custom-message span {
+  color: #BD1D2C;
+}
+
+/* ---------------------product target--------------------- */
+/* line 242, ../sass/style.scss */
+.slider {
+  width: auto;
+  margin: 10px 30px 10px 30px;
+}
+
+/* line 250, ../sass/style.scss */
+.slick-slide {
+  text-align: center;
+}
+
+/* line 254, ../sass/style.scss */
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+/* line 259, ../sass/style.scss */
+.slick-dots {
+  bottom: -30px;
+}
+
+/* line 265, ../sass/style.scss */
+.product-target {
+  display: grid;
+  background: #fff;
+  border: 1px solid #fafafa;
+  padding: 3px 0;
+}
+
+/* line 272, ../sass/style.scss */
+.product-target p {
+  display: grid;
+}
+
+/* line 276, ../sass/style.scss */
+.product-target img {
+  width: 100%;
+}
+
+/* line 280, ../sass/style.scss */
+.price-tag {
+  background-image: url(../assets/img/price-tag.svg);
+  width: 90px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  color: #BD1D2C;
+  font-weight: 500;
+}
+
+/* line 290, ../sass/style.scss */
+.discount-tag {
+  position: absolute;
+  top: 15px;
+  padding: 5px;
+  text-align: left;
+  left: 15px;
+  color: #BD1D2C;
+  background: #FFC96D;
+  font-weight: 700;
+}
+
+/* line 301, ../sass/style.scss */
+.discount-tag span {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+/* line 306, ../sass/style.scss */
+.add-to-cart {
+  position: absolute;
+  bottom: 5%;
+  padding: 5px;
+  text-align: left;
+  left: 47%;
+  color: #fafafa;
+  background: #BD1D2C;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 6px 7px;
+}
+
+/* line 320, ../sass/style.scss */
+.add-to-cart-in-shop {
+  position: absolute;
+  bottom: 50px;
+  padding: 5px;
+  text-align: left;
+  left: 47%;
+  color: #fafafa;
+  background: #BD1D2C;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 6px 7px;
+}
+
+/* line 334, ../sass/style.scss */
+.add-to-cart i {
+  font-size: 18px;
+}
+
+/* line 338, ../sass/style.scss */
+.add-to-cart-in-shop i {
+  font-size: 18px;
+}
+
+/* line 342, ../sass/style.scss */
+.i-want-this {
+  color: #fafafa;
+  font-weight: 500;
+  background: #BD1D2C;
+  border-radius: 3px;
+  padding: 0.7em 1em;
+  margin: auto;
+}
+
+/* line 351, ../sass/style.scss */
+.product {
+  margin-top: 50px;
+}
+
+/* line 355, ../sass/style.scss */
+.pr-name {
+  font-weight: 400;
+  color: #4b4b4b;
+  text-transform: uppercase;
+  padding: 1em 0 0em 0;
+  font-size: 13px;
+}
+
+/* line 363, ../sass/style.scss */
+.pr-price {
+  font-weight: 400;
+  color: #4b4b4b;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+/* ---------------------/product target--------------------- */
+/* ---------------------------------------New Items--------------------------------------- */
+/* line 377, ../sass/style.scss */
+.new-items {
+  background-color: #FFC96D;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 40px;
+  clear: both;
+}
+
+/* ---------------------------------------Discount Form--------------------------------------- */
+/* line 388, ../sass/style.scss */
+.discount-box {
+  background-color: #EEDBCF;
+  margin-top: 40px;
+}
+
+/* line 393, ../sass/style.scss */
+.for-alerts {
+  padding: 0;
+}
+
+/* line 398, ../sass/style.scss */
+.for-alerts img {
+  width: 100%;
+}
+
+/* line 402, ../sass/style.scss */
+.discount-form h3 {
+  color: #4B4B4B;
+}
+
+/* line 406, ../sass/style.scss */
+.discount-form form {
+  margin-top: 2em;
+}
+
+/* line 411, ../sass/style.scss */
+.discount-form input[type=phone],
+.discount-form input[type=email],
+.discount-form input[type=text],
+.discount-form textarea,
+.discount-form select {
+  width: 98%;
+  margin: 15px auto 3px auto;
+  border: none;
+  background: #fff;
+  border-radius: 2px;
+  padding: 5px;
+  color: #767676;
+}
+
+/* line 426, ../sass/style.scss */
+.discount-form input[type=submit] {
+  margin: 2em auto 1em auto;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  box-shadow: 0px 1px 4px 0px rgba(156, 155, 155, 0.39);
+  background: #BD1D2C;
+  padding: 0.7em 2em;
+}
+
+/* ---------------------------------------Footer--------------------------------------- */
+/* line 439, ../sass/style.scss */
+.main-footer {
+  background-color: #fafafa;
+  color: #95989A;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+/* line 446, ../sass/style.scss */
+.footnote {
+  padding: 0.6em;
+}
+
+/* line 450, ../sass/style.scss */
+.footnote a {
+  font-size: 13px;
+  padding: 0.5em 2em;
+  color: #95989A;
+}
+
+/* line 456, ../sass/style.scss */
+.footnote-icons {
+  padding: 0.6em;
+}
+
+/* line 460, ../sass/style.scss */
+.footnote-icons a {
+  font-size: 16px;
+  padding: 0.5em 1em;
+  color: #95989A;
+}
+
+/* line 466, ../sass/style.scss */
+.footnote a:hover, .footnote-icons a:hover {
+  color: #FFC96D !important;
+}
+
+/********************************************************Shop Page********************************************************
+**************************************************************************************************************************/
+/* line 473, ../sass/style.scss */
+.primary-div {
+  height: auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+/* line 482, ../sass/style.scss */
+.side-header {
+  background: #BD1D2C;
+  color: #F5F5F5;
+  padding: 0.7em;
+  font-size: 16px;
+}
+
+/* line 489, ../sass/style.scss */
+.side-content {
+  background: #fafafa;
+  height: 100%;
+  min-height: 500px;
+  padding: 0.7em;
+  font-size: 1.1em;
+}
+
+/* line 497, ../sass/style.scss */
+.side-content ul a {
+  color: #4B4B4B;
+}
+
+/* line 501, ../sass/style.scss */
+.side-content ul {
+  color: #4B4B4B;
+}
+/* line 505, ../sass/style.scss */
+.side-content ul a {
+  color: #4B4B4B;
+}
+/* line 507, ../sass/style.scss */
+.side-content ul a:hover {
+  color: #BD1D2C;
+}
+
+/* line 511, ../sass/style.scss */
+.shop-shelf {
+  margin-bottom: 30px;
+}
+
+/* line 519, ../sass/style.scss */
+.shop-banner img {
+  width: 100%;
+}
+
+/* line 523, ../sass/style.scss */
+.shop-products {
+  margin-top: 20px;
+}
+
+/* line 527, ../sass/style.scss */
+.shop-offer {
+  background-color: #FFC96D;
+  padding-top: 0.1em;
+  padding-bottom: 3em;
+  margin-top: 10px;
+}
+
+/********************************************************Product View Page************************************************
+**************************************************************************************************************************/
+/* line 537, ../sass/style.scss */
+.product-div {
+  height: 100vh;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+/* line 544, ../sass/style.scss */
+.product-view::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 548, ../sass/style.scss */
+.product-view {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+/* line 554, ../sass/style.scss */
+.action-on-product {
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+/* line 563, ../sass/style.scss */
+.product-img {
+  background: #fafafa;
+}
+
+/* line 567, ../sass/style.scss */
+.product-img img {
+  width: 100%;
+  border: 15px solid #fafafa;
+}
+
+/* line 572, ../sass/style.scss */
+.product-info {
+  border-top: 1px solid #D2D3D4;
+  background: #fff;
+  margin: auto;
+  color: #5B5B5B;
+  width: 90%;
+}
+
+/* line 580, ../sass/style.scss */
+.product-info h3, .product-info h4, .product-info h6 {
+  font-weight: 400;
+}
+
+/* line 584, ../sass/style.scss */
+.coupon {
+  margin-top: 5em;
+  padding: 2em;
+}
+
+/* line 589, ../sass/style.scss */
+.coupon input[type=text] {
+  width: 40%;
+  border: none;
+  background: #FFC96D;
+  border-radius: 2px;
+  padding: 5px;
+  color: #767676;
+  margin: 2em;
+}
+
+/* line 600, ../sass/style.scss */
+.social-share {
+  border-top: 1px solid #D2D3D4;
+  border-bottom: 1px solid #D2D3D4;
+}
+
+/* line 605, ../sass/style.scss */
+.social-share img {
+  max-width: 28px;
+}
+
+/* line 609, ../sass/style.scss */
+.i-want-this-p {
+  color: #fafafa;
+  font-weight: 500;
+  background: #BD1D2C;
+  border-radius: 3px;
+  padding: 0.8em 2em;
+  margin: auto;
+  align-items: stretch;
+}
+
+/* line 619, ../sass/style.scss */
+.close {
+  position: relative;
+  right: 15px;
+  top: 15px;
+  z-index: 2;
+}
+
+/* line 626, ../sass/style.scss */
+.modal-body {
+  padding: 5px;
+}
+
+/* line 631, ../sass/style.scss */
+.cab-preview::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 635, ../sass/style.scss */
+.cab-preview {
+  background: #fafafa;
+  border-radius: 3px;
+  border: 5px solid #fafafa;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  max-height: 360px;
+  padding: 5px -10px;
+}
+
+/* line 646, ../sass/style.scss */
+.cab-preview img {
+  width: 100%;
+  border: 2px solid #fafafa;
+}
+
+/* line 651, ../sass/style.scss */
+.cab-form {
+  width: 98%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* line 657, ../sass/style.scss */
+.cab-form input[type=phone],
+.cab-form input[type=email],
+.cab-form input[type=text],
+.cab-form textarea,
+.cab-form select {
+  width: 98%;
+  margin: 15px auto 3px auto;
+  border: 1px solid #fafafa;
+  background: #fff;
+  border-radius: 2px;
+  padding: 5px;
+  color: #95989A;
+}
+
+/* line 672, ../sass/style.scss */
+.cab-form input[type=submit] {
+  margin: 2em auto 1em auto;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  box-shadow: 0px 1px 4px 0px rgba(156, 155, 155, 0.39);
+  background: #BD1D2C;
+  padding: 0.7em 2em;
+  margin-left: 30%;
+}
+
+/********************************************************Cart View Page************************************************
+**************************************************************************************************************************/
+/* line 686, ../sass/style.scss */
+.cart {
+  height: 100%;
+  overflow: auto;
+}
+
+/* line 691, ../sass/style.scss */
+.cart-box::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 695, ../sass/style.scss */
+.cart-listing {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+/* line 701, ../sass/style.scss */
+.cart-box {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+/* line 707, ../sass/style.scss */
+.cart ul li {
+  padding: 0.5em 0;
+  margin: 2px 0;
+}
+
+/* line 712, ../sass/style.scss */
+.cart ul li:first-child {
+  border-top: 1px solid #D2D3D4;
+}
+
+/* line 716, ../sass/style.scss */
+.cart ul li:last-child {
+  border-bottom: 1px solid #D2D3D4;
+}
+
+/* line 720, ../sass/style.scss */
+.cart li,
+.cart li.hidden:nth-child(even) + .cart li:nth-of-type(odd) + .cart li:nth-of-type(even),
+.cart li.hidden:nth-child(even) + .cart li.hidden:nth-child(odd) ~ .cart li:nth-of-type(odd) {
+  background: #fafafa;
+}
+
+/* line 726, ../sass/style.scss */
+.cart li:nth-child(even),
+.cart li.hidden:nth-child(even) ~ .cart li:nth-of-type(odd), .cart li.hidden:nth-child(even) + .cart li.hidden:nth-child(odd) ~ .cart li:nth-of-type(even) {
+  background: #fff;
+  border-top: 1px solid #D2D3D4;
+  border-bottom: 1px solid #D2D3D4;
+}
+
+/* line 733, ../sass/style.scss */
+.cart-close {
+  position: relative;
+  right: 0px !important;
+  top: 0px !important;
+  z-index: 2;
+}
+
+/* line 740, ../sass/style.scss */
+.cart ul li img {
+  max-width: 100px;
+  width: 100%;
+}
+
+/* line 745, ../sass/style.scss */
+.cart-align {
+  padding: 2em 15px;
+}
+
+/* line 749, ../sass/style.scss */
+.cart-receipt hr {
+  margin: 1em 0;
+  padding: 1em 0;
+  clear: both;
+}
+
+/* line 755, ../sass/style.scss */
+.main-cart {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+/* line 761, ../sass/style.scss */
+.coupun-cart {
+  margin-top: 2em;
+  padding: 2em;
+}
+
+/* line 766, ../sass/style.scss */
+.coupun-cart input[type=text] {
+  width: 70%;
+  border: none;
+  background: #FFC96D;
+  border-radius: 2px;
+  padding: 5px;
+  color: #767676;
+  margin: 2em auto 2em auto;
+}
+
+/* line 777, ../sass/style.scss */
+.cart-summary {
+  font-size: 12px;
+  color: #95989A;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 784, ../sass/style.scss */
+.s-head {
+  padding: 0.3em 0 0.3em 0;
+}
+
+/* line 788, ../sass/style.scss */
+.cart-total {
+  font-size: 13px;
+  color: #95989A;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1080px) {
+  /* line 796, ../sass/style.scss */
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* line 818, ../sass/style.scss */
+  .for-alerts {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* line 824, ../sass/style.scss */
+  .for-alerts img {
+    width: 100%;
+  }
+}
+@media (max-width: 990px) {
+  /* line 830, ../sass/style.scss */
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* line 852, ../sass/style.scss */
+  .for-alerts {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* line 858, ../sass/style.scss */
+  .for-alerts img {
+    width: 100%;
+  }
+
+  /* line 862, ../sass/style.scss */
+  .banner {
+    width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    margin-top: 100px;
+  }
+
+  /* line 870, ../sass/style.scss */
+  .primary-div {
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 20px;
+  }
+
+  /* line 876, ../sass/style.scss */
+  .product-div {
+    height: 100vh;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+}
+@media (max-width: 720px) {
+  /* line 885, ../sass/style.scss */
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* line 907, ../sass/style.scss */
+  .for-alerts {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* line 913, ../sass/style.scss */
+  .for-alerts img {
+    width: 100%;
+  }
+
+  /* line 917, ../sass/style.scss */
+  .banner {
+    width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    margin-top: 100px;
+  }
+
+  /* line 925, ../sass/style.scss */
+  .primary-div {
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 20px;
+  }
+
+  /* line 931, ../sass/style.scss */
+  .product-div {
+    height: 100vh;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+
+  /* line 938, ../sass/style.scss */
+  .coupon {
+    margin-top: 0em;
+    padding: 2em;
+  }
+
+  /* line 943, ../sass/style.scss */
+  .coupon input[type="text"] {
+    width: 80%;
+    border: none;
+    background: #FFC96D;
+    border-radius: 2px;
+    padding: 5px;
+    color: #767676;
+    margin: 2em auto 2em auto;
+  }
+}
+@media (max-width: 640px) {
+  /* line 959, ../sass/style.scss */
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* line 981, ../sass/style.scss */
+  .for-alerts {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* line 987, ../sass/style.scss */
+  .for-alerts img {
+    width: 100%;
+  }
+
+  /* line 991, ../sass/style.scss */
+  .discount-tag {
+    position: absolute;
+    top: 10px;
+    padding: 2px;
+    text-align: left;
+    left: 15px;
+    color: #BD1D2C;
+    background: #FFC96D;
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  /* line 1003, ../sass/style.scss */
+  .to-category {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  /* line 1008, ../sass/style.scss */
+  .banner {
+    width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    margin-top: 100px;
+  }
+
+  /* line 1016, ../sass/style.scss */
+  .primary-div {
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 20px;
+  }
+
+  /* line 1022, ../sass/style.scss */
+  .product-div {
+    height: 100vh;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+
+  /* line 1029, ../sass/style.scss */
+  .coupon {
+    margin-top: 0em;
+    padding: 2em;
+  }
+
+  /* line 1034, ../sass/style.scss */
+  .coupon input[type="text"] {
+    width: 80%;
+    border: none;
+    background: #FFC96D;
+    border-radius: 2px;
+    padding: 5px;
+    color: #767676;
+    margin: 2em auto 2em auto;
+  }
+
+  /* line 1044, ../sass/style.scss */
+  .main-navs-mobile a {
+    color: #4B4B4B;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px !important;
+    padding: 0.5em 1.1em;
+  }
+}
